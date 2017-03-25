@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">EZ MAN</string>
+    <string name="network_wifi">Wi-Fi</string>
+    <string name="network_mobile">Mobile</string>
+    <string name="title_activity_project_manager">ProjectManagerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="context_view">
+        <item>Web</item>
+        <item>IOS</item>
+        <item>Android</item>
+
+    </string-array>
+
+</resources>

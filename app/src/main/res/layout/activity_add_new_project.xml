@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dbnizar.com.dbnizar.dbnizarbase.view.activity.AddNewProject">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <include layout="@layout/toolbar" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/submit_project"
+        android:layout_below="@+id/linearLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="@dimen/dp4"
+                card_view:cardElevation="@dimen/dp4"
+                card_view:cardPreventCornerOverlap="true"
+                card_view:cardUseCompatPadding="true">
+
+                <EditText
+                    android:id="@+id/add_project_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:hint="Project Name"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:padding="@dimen/dp10" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp4"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="@dimen/dp4"
+                card_view:cardElevation="@dimen/dp4"
+                card_view:cardPreventCornerOverlap="true"
+                card_view:cardUseCompatPadding="true">
+
+                <EditText
+                    android:id="@+id/add_project_manager_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:hint="Project Manager Name"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:padding="@dimen/dp10" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp4"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="@dimen/dp4"
+                card_view:cardElevation="@dimen/dp4"
+                card_view:cardPreventCornerOverlap="true"
+                card_view:cardUseCompatPadding="true">
+
+                <EditText
+                    android:id="@+id/add_client_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:hint="Client Name"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:padding="@dimen/dp10" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp4"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="@dimen/dp4"
+                card_view:cardElevation="@dimen/dp4"
+                card_view:cardPreventCornerOverlap="true"
+                card_view:cardUseCompatPadding="true">
+
+                <EditText
+                    android:id="@+id/add_client_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:hint="Client Email"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:padding="@dimen/dp10" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp4"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="@dimen/dp4"
+                card_view:cardElevation="@dimen/dp4"
+                card_view:cardPreventCornerOverlap="true"
+                card_view:cardUseCompatPadding="true">
+
+                <EditText
+                    android:id="@+id/add_budget"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:hint="Budget"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:padding="@dimen/dp10" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp4"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="@dimen/dp4"
+                card_view:cardElevation="@dimen/dp4"
+                card_view:cardPreventCornerOverlap="true"
+                card_view:cardUseCompatPadding="true">
+
+                <EditText
+                    android:id="@+id/add_timeline"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:hint="Client Timeline"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:padding="@dimen/dp10" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp4"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="@dimen/dp4"
+                card_view:cardElevation="@dimen/dp4"
+                card_view:cardPreventCornerOverlap="true"
+                card_view:cardUseCompatPadding="true">
+
+                <EditText
+                    android:id="@+id/add_internal_timeline"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:hint="Internal Timeline"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:padding="@dimen/dp10" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp4"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="@dimen/dp4"
+                card_view:cardElevation="@dimen/dp4"
+                card_view:cardPreventCornerOverlap="true"
+                card_view:cardUseCompatPadding="true">
+
+                <EditText
+                    android:id="@+id/add_official_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:clickable="true"
+                    android:cursorVisible="false"
+                    android:focusable="false"
+                    android:hint="Official Start Date"
+                    android:padding="@dimen/dp10" />
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp4"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="@dimen/dp4"
+                card_view:cardElevation="@dimen/dp4"
+                card_view:cardPreventCornerOverlap="true"
+                card_view:cardUseCompatPadding="true">
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/add_spinner_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:entries="@array/context_view"
+                    android:padding="@dimen/dp10" />
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp4"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="@dimen/dp4"
+                card_view:cardElevation="@dimen/dp4"
+                card_view:cardPreventCornerOverlap="true"
+                card_view:cardUseCompatPadding="true">
+
+                <EditText
+                    android:id="@+id/add_platform"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:hint="Platform"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:padding="@dimen/dp10" />
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/submit_project"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/dark_orange"
+        android:text="Add"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
